@@ -12,7 +12,7 @@ int main(){
 	int n=0;
 	printf("Enter a Positive Integer:");
 	scanf("%d",&n);
-	while(n<0){
+	while(n<=0){
 		printf("Positive number required.\nEnter Again:");
 		scanf("%d",&n);
 	}
