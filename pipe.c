@@ -3,6 +3,10 @@
 #include<stdio.h>
 #include<unistd.h>
 int main(int c,char *v[]){
+	 if(c<3){
+                printf("Not enough Parameters\nExiting\n");
+                exit(1);
+        }
 	int p[2];
 	char r[100];
 	int v1=open(v[1],O_RDONLY);
