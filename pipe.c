@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<unistd.h>
 int main(int c,char *v[]){
-	 if(c<3){
+	 if(c!=3){
                 printf("Not enough Parameters\nExiting\n");
                 exit(1);
         }
